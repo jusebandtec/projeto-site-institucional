@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/*Geral*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*HEADER*/
+.header {
+    background-color: #232323;
+    color: #ffffff;
+    margin-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+.header a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+.header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;   
+}
+.header .title-header {
+    float: left;
+}
+.header .title-header h1 {
+}
+.nav {
+    float: right;
+    margin-top: 15px;
+}
+.heaader .highlight, .header .current {
+    color: ;
+}

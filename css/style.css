@@ -6,18 +6,15 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-/*Geral*/
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
-/*HEADER*/
 .header {
     background-color: #232323;
     color: #ffffff;
-    margin-top: 30px;
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
 }
@@ -41,6 +38,51 @@ body {
     float: right;
     margin-top: 15px;
 }
-.heaader .highlight, .header .current {
-    color: ;
+.header .highlight, .header .current a {
+    color: #e8491d;
+    font-weight: bold;
 }
+.main .container {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.main .container .container-box-one {
+    width: 37%;
+    background-color: #ffffff;
+    height: 380px;
+    margin-top: 20px;
+    border-bottom: #e8491d 3px solid;
+}
+.main .container .container-box-one p {
+    margin: 0 10px;
+    text-align: justify;
+    color: #e8491d;
+}
+.main .container .container-box-two {
+    width: 37%;
+    height: 380px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-bottom: #e8491d 3px solid;
+}
+.main .container .container-box-two p {
+    color: #e8491d;
+    margin: 0 10px;
+    text-align: justify;
+}
+.main .container-bottom {
+    width: 70%;
+    background-color: #ffffff;
+    height: 130px;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: #e8491d 3px solid;
+    text-align: center;
+}
+.main .container-bottom p {
+    color: #e8491d;
+}
+
